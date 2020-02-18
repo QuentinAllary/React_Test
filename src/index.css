@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#containerHome {
+  position: fixed;
+  left: 43%;
+}
+
+#inputHome {
+  position: fixed;
+  top: 17%;
+  left: 44%;
+}
+
+
+#containerGender {
+  position: fixed;
+  left: 43%;
+}
+
+#containerInfo {
+  position: fixed;
+  left: 43%;
+}
+
+#sidebar {
+  width: 130px;
+  position: fixed;
+  top: 90px;
+  left: 2px;
+  background: #047cfb;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+#activeList a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fffafa;
+  display: block;
+}
+
+#activeList a:hover {
+  background-color: #0367d3;
+  color: #fffdfd;
+}
+
+#dropdownMenu {
+  background-color: #007bff;
+  color: #fffdfd;
+}
+
+#navbarSubmenu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fffafa;
+  display: block;
+}
+
+#navbarSubmenu a:hover {
+  background-color: #0367d3;
+}
